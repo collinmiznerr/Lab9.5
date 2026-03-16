@@ -7,13 +7,13 @@ title: The Name Generator
     current: 'Click Right Here!!'
 }">
 
-<h1 class="text-6x1 font-bold mb-6">The Name Generator!</h1>
+<h1 class="text-6x1 font-bold mb-10">The Name Generator!</h1>
 
-<h2 class="text-3xl mb-6" x-text="current"></h2>
+<h1 class="text-3xl mb-6" x-text="current"></h1>
 
  <button
     @click="current = names[Math.round(Math.random() * (names.length - 1))]"
-    class="bg-cyan-400 text-gray-800 font-bold px-6 py-2 rounded"
+    class="bg-blue-400 text-gray-800 font-bold px-6 py-2 rounded"
   >
     Random Name
   </button>
