@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: About
+title: This Name Generator 
 ---
 
 # This Name Generator 
